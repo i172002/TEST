@@ -1,0 +1,34 @@
+.topContainer
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 2px;
+    border-radius: 40%;
+}
+.topContainer .nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+ .topContainer .title
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left:20px;
+}
+a{
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px; 
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
